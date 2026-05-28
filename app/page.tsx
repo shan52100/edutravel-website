@@ -29,15 +29,7 @@ export default function HomePage() {
   <div className="nav-main">
     <div className="wrap nav-main-inner">
       <a href="#top" className="logo">
-        <span className="logo-icon">
-          <svg width="30" height="28" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="16,2 1,11 16,20 31,11" fill="#C9A84C"/>
-            <rect x="7" y="14" width="18" height="9" rx="2.5" fill="#1A5238"/>
-            <line x1="29" y1="11" x2="29" y2="23" stroke="#C9A84C" strokeWidth="2.5" strokeLinecap="round"/>
-            <circle cx="29" cy="25" r="2.5" fill="#C9A84C"/>
-          </svg>
-        </span>
-        Ed<span className="logo-bull">Bull</span>
+        <img src="/logo.png" alt="EdBull" height={44} style={{display:'block', objectFit:'contain'}} />
       </a>
       <div className="nav-links">
         <div className="has-dropdown">
@@ -3170,15 +3162,7 @@ export default function HomePage() {
     <div className="footer-grid">
       <div className="footer-brand">
         <a href="#top" className="logo">
-          <span className="logo-icon">
-            <svg width="26" height="24" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <polygon points="16,2 1,11 16,20 31,11" fill="#D4B860"/>
-              <rect x="7" y="14" width="18" height="9" rx="2.5" fill="#1A5238"/>
-              <line x1="29" y1="11" x2="29" y2="23" stroke="#D4B860" strokeWidth="2.5" strokeLinecap="round"/>
-              <circle cx="29" cy="25" r="2.5" fill="#D4B860"/>
-            </svg>
-          </span>
-          Ed<span className="logo-bull">Bull</span>
+          <img src="/logo.png" alt="EdBull" height={40} style={{display:'block', objectFit:'contain'}} />
         </a>
         <p className="tagline">Your journey to global education starts here. An independent study-abroad consultancy connecting ambitious students to the world's best universities.</p>
       </div>
