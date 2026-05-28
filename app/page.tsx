@@ -28,7 +28,17 @@ export default function HomePage() {
   
   <div className="nav-main">
     <div className="wrap nav-main-inner">
-      <a href="#top" className="logo">EduTravel <span className="plane">✈</span></a>
+      <a href="#top" className="logo">
+        <span className="logo-icon">
+          <svg width="30" height="28" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="16,2 1,11 16,20 31,11" fill="#C9A84C"/>
+            <rect x="7" y="14" width="18" height="9" rx="2.5" fill="#1A5238"/>
+            <line x1="29" y1="11" x2="29" y2="23" stroke="#C9A84C" strokeWidth="2.5" strokeLinecap="round"/>
+            <circle cx="29" cy="25" r="2.5" fill="#C9A84C"/>
+          </svg>
+        </span>
+        Ed<span className="logo-bull">Bull</span>
+      </a>
       <div className="nav-links">
         <div className="has-dropdown">
           <button className="nav-trigger" type="button">
@@ -585,7 +595,7 @@ export default function HomePage() {
         Study at the World's <span className="ital">Best Universities</span>
       </h1>
       <p className="hero-sub">
-        <b>EduTravel</b> connects ambitious students to Oxford, MIT, UBC, Melbourne and <b>200+ top universities</b> — with zero application stress.
+        <b>EdBull</b> connects ambitious students to Oxford, MIT, UBC, Melbourne and <b>200+ top universities</b> — with zero application stress.
       </p>
       <div className="hero-ctas">
         <a href="#services" className="btn">
@@ -1111,7 +1121,7 @@ export default function HomePage() {
     <div className="section-head reveal">
       <span className="eyebrow">What we do</span>
       <h2>Everything you need to <span className="ital">study abroad</span>.</h2>
-      <p>From your first university shortlist to landing at your dorm — EduTravel covers every step, with a real human consultant who knows the system inside out.</p>
+      <p>From your first university shortlist to landing at your dorm — EdBull covers every step, with a real human consultant who knows the system inside out.</p>
     </div>
 
     <div className="services">
@@ -2217,7 +2227,7 @@ export default function HomePage() {
 <section className="section section-mint" id="why">
   <div className="wrap">
     <div className="section-head reveal">
-      <span className="eyebrow">Why EduTravel</span>
+      <span className="eyebrow">Why EdBull</span>
       <h2>Six reasons students <span className="ital">choose us</span> — over big agencies, over going it alone.</h2>
     </div>
     <div className="whys">
@@ -2430,7 +2440,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="story-headline">"Got my visa on the first try."</div>
-          <div className="story-quote">EduTravel handled every document. It felt like having a personal manager — not an agency.</div>
+          <div className="story-quote">EdBull handled every document. It felt like having a personal manager — not an agency.</div>
         </div>
       </article>
 
@@ -2568,7 +2578,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="story-headline">"They replied at 11pm."</div>
-          <div className="story-quote">I had a panic moment about my SOP. EduTravel replied that night. Cannot recommend enough.</div>
+          <div className="story-quote">I had a panic moment about my SOP. EdBull replied that night. Cannot recommend enough.</div>
         </div>
       </article>
 
@@ -2691,7 +2701,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="review-mini-stars">★★★★★</div>
-            <div className="review-mini-text">"EduTravel made my UCL application unbelievably smooth. My consultant Priya was on WhatsApp till 11pm helping me with my SOP. Got the offer in 3 weeks."</div>
+            <div className="review-mini-text">"EdBull made my UCL application unbelievably smooth. My consultant Priya was on WhatsApp till 11pm helping me with my SOP. Got the offer in 3 weeks."</div>
           </article>
 
           <article className="review-mini">
@@ -2703,7 +2713,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="review-mini-stars">★★★★★</div>
-            <div className="review-mini-text">"Germany seemed impossible. EduTravel handled the APS, visa, even the blocked account. I'm in Munich now and it still feels surreal. Thank you!"</div>
+            <div className="review-mini-text">"Germany seemed impossible. EdBull handled the APS, visa, even the blocked account. I'm in Munich now and it still feels surreal. Thank you!"</div>
           </article>
 
           <article className="review-mini">
@@ -2764,7 +2774,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="review-mini-stars">★★★★★</div>
-            <div className="review-mini-text">"EduTravel made my UCL application unbelievably smooth. My consultant Priya was on WhatsApp till 11pm helping me with my SOP. Got the offer in 3 weeks."</div>
+            <div className="review-mini-text">"EdBull made my UCL application unbelievably smooth. My consultant Priya was on WhatsApp till 11pm helping me with my SOP. Got the offer in 3 weeks."</div>
           </article>
           <article className="review-mini" aria-hidden="true">
             <div className="review-mini-top">
@@ -2775,7 +2785,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="review-mini-stars">★★★★★</div>
-            <div className="review-mini-text">"Germany seemed impossible. EduTravel handled the APS, visa, even the blocked account. I'm in Munich now and it still feels surreal. Thank you!"</div>
+            <div className="review-mini-text">"Germany seemed impossible. EdBull handled the APS, visa, even the blocked account. I'm in Munich now and it still feels surreal. Thank you!"</div>
           </article>
           <article className="review-mini" aria-hidden="true">
             <div className="review-mini-top">
@@ -2805,7 +2815,7 @@ export default function HomePage() {
     <div className="faq reveal">
       <div className="faq-item">
         <button className="faq-q">
-          <span>Is EduTravel's consultation really free?</span>
+          <span>Is EdBull's consultation really free?</span>
           <span className="icon"></span>
         </button>
         <div className="faq-a"><div className="faq-a-inner">
@@ -3146,7 +3156,7 @@ export default function HomePage() {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
           </div>
           <div>
-            <h5>EduTravel HQ</h5>
+            <h5>EdBull HQ</h5>
             <p>2nd Floor, Indiranagar · Bangalore</p>
           </div>
           <a href="#" className="map-cta">
@@ -3159,7 +3169,17 @@ export default function HomePage() {
     
     <div className="footer-grid">
       <div className="footer-brand">
-        <a href="#top" className="logo">EduTravel <span className="plane">✈</span></a>
+        <a href="#top" className="logo">
+          <span className="logo-icon">
+            <svg width="26" height="24" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="16,2 1,11 16,20 31,11" fill="#D4B860"/>
+              <rect x="7" y="14" width="18" height="9" rx="2.5" fill="#1A5238"/>
+              <line x1="29" y1="11" x2="29" y2="23" stroke="#D4B860" strokeWidth="2.5" strokeLinecap="round"/>
+              <circle cx="29" cy="25" r="2.5" fill="#D4B860"/>
+            </svg>
+          </span>
+          Ed<span className="logo-bull">Bull</span>
+        </a>
         <p className="tagline">Your journey to global education starts here. An independent study-abroad consultancy connecting ambitious students to the world's best universities.</p>
       </div>
       <div className="footer-col">
@@ -3192,7 +3212,7 @@ export default function HomePage() {
     </div>
 
     <div className="footer-bottom">
-      <div>© <span id="year">2026</span> EduTravel. All rights reserved.</div>
+      <div>© <span id="year">2026</span> EdBull. All rights reserved.</div>
       <div className="socials">
         <a href="#" className="social-btn" aria-label="LinkedIn">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8h4.56v15H.22V8zm7.34 0h4.37v2.06h.06c.61-1.16 2.1-2.39 4.32-2.39 4.62 0 5.47 3.04 5.47 6.99V23h-4.56v-6.84c0-1.63-.03-3.73-2.27-3.73-2.27 0-2.62 1.78-2.62 3.61V23H7.56V8z"/></svg>
@@ -3232,12 +3252,12 @@ export default function HomePage() {
       <path d="M5 5L17 17M17 5L5 17"/>
     </svg>
   </button>
-  <aside className="cb-panel" role="dialog" aria-label="EduTravel chat">
+  <aside className="cb-panel" role="dialog" aria-label="EdBull chat">
     <header className="cb-head">
       <div className="cb-head-info">
         <div className="cb-head-avatar">E</div>
         <div>
-          <div className="cb-head-title">EduTravel AI</div>
+          <div className="cb-head-title">EdBull AI</div>
           <div className="cb-head-sub"><span className="dot"></span>Online · typically replies in seconds</div>
         </div>
       </div>
@@ -3246,7 +3266,7 @@ export default function HomePage() {
       </button>
     </header>
     <div className="cb-body">
-      <div className="cb-msg bot">Hi! 👋 I'm EduTravel's AI assistant. Tell me what you're thinking about — country, course, or just "is this free?" — and I'll point you the right way.</div>
+      <div className="cb-msg bot">Hi! 👋 I'm EdBull's AI assistant. Tell me what you're thinking about — country, course, or just "is this free?" — and I'll point you the right way.</div>
       <div className="cb-msg bot">Pick a quick topic to get started:</div>
       <div className="cb-quick">
         <button data-key="uk">🇬🇧 Study in UK</button>

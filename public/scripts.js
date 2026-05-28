@@ -1,5 +1,5 @@
 /* ============================================================
-   EduTravel — site interactions
+   EdBull — site interactions
    ============================================================ */
 
 /* ---------- Navbar scroll state ---------- */
@@ -86,7 +86,7 @@
   // Stops keyed to scroll progress and matching captions
   const stops = [
     { t: 0.00, cap: 'Arjun — dreaming of studying abroad',         bubble: 'Hi! I\'m Arjun. Just dreaming of going abroad…' },
-    { t: 0.15, cap: 'Researching universities with EduTravel…',     bubble: 'Look, Oxford\'s right here! 👀' },
+    { t: 0.15, cap: 'Researching universities with EdBull…',     bubble: 'Look, Oxford\'s right here! 👀' },
     { t: 0.35, cap: 'Offer letter in hand — packing for London!',   bubble: 'My visa\'s approved! 🎉' },
     { t: 0.55, cap: 'At the airport — ready to fly!',              bubble: 'Gate 7 — wish me luck ✈' },
     { t: 0.78, cap: 'Arjun lands at UCL. Dream achieved! 🎉',       bubble: 'I made it!! 🎓' },
